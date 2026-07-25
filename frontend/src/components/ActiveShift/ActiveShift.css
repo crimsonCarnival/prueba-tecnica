@@ -1,0 +1,58 @@
+.active-shift {
+  max-width: 480px;
+  width: 100%;
+}
+
+.active-shift__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.active-shift__name {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  letter-spacing: -0.01em;
+}
+
+.active-shift__code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.active-shift__timer-wrapper {
+  margin: 0.5rem 0;
+  padding: 1.25rem 1.5rem;
+  background: var(--color-primary-glow);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(37, 99, 235, 0.15);
+}
+
+.active-shift__meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.active-shift__meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.active-shift__meta-value {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.active-shift__end-btn {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+}

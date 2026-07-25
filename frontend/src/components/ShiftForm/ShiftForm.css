@@ -1,0 +1,43 @@
+.shift-form {
+  max-width: 460px;
+  width: 100%;
+}
+
+.shift-form__header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.shift-form__icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.shift-form__title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.shift-form__subtitle {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+}
+
+.shift-form__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.shift-form__field { display: flex; flex-direction: column; }
+
+.shift-form__submit {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+}
+
