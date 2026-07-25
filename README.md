@@ -31,7 +31,7 @@ Aplicación full-stack para registrar y gestionar las jornadas laborales de los 
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/crimsonCarnival/prueba-tecnica
 cd prueba-tecnica
 ```
 
