@@ -1,4 +1,4 @@
-# JornadaApp — Sistema de Registro de Jornadas Laborales
+# Sistema de Registro de Jornadas Laborales
 
 Aplicación full-stack para registrar y gestionar las jornadas laborales de los trabajadores. Permite iniciar una jornada con un código único, visualizar un cronómetro en tiempo real sincronizado con el servidor, y finalizar la jornada registrando el tiempo total trabajado.
 
